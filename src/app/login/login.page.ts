@@ -9,7 +9,13 @@ export class LoginPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() { }
+
+  
+    googleLogin(): void {
+    console.log( 'google login clicked');
+    } 
+
+  
 
 }
